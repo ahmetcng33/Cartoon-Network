@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    padding-left: 1rem;
+    width: 7rem;
+    height: 7rem;
+}
+.header-right{
+    float: right;
+    margin-top: 3rem;
+    text-decoration: none;
+    margin-right: 0.3rem;
+    font-size:large;
+    color: black;
+}
+
+header{
+    padding-right: 3.3rem;
+    background: rgb(255,255,255);
+    background: linear-gradient(231deg, rgba(255,255,255,1) 0%, rgba(63,176,174,1) 51%, rgba(69,180,173,1) 52%, rgba(27,152,177,1) 78%);
+}
+
+nav{
+    padding-left: 35%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: #07456f; 
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.navbar{
+    text-decoration: none;
+    margin: 2rem;
+    color: black;
+    font-size: large;   
+}
+
+.photo{
+    position: relative;
+    height:40rem;
+    background-image:url(Cartoon-Network-1000x563.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+button{
+   position: absolute;
+   bottom: 5rem;
+   left: 10rem;
+}
+
+.logo2{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 2rem;
+}
+h3{
+    display: inline-block;
+    margin-left: 1rem;
+}
+.sabit{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 10;
+    bottom:3rem;
+    right: 3rem;
+}
+
+.sabit:hover{
+    cursor: pointer;
+    border: 2px solid red;
+    color: black;
+}
+
