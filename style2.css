@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+h1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 5rem;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    z-index: 3;
+}
+
+h3{
+    margin-top: 3px;
+}
+.dizi-kart{
+    position: absolute;
+    text-align: center;
+    margin: 3rem;
+    padding: 20px;
+    border: 2px solid rgb(65, 74, 29);
+    border-radius: 5px;
+}
+
+.kart1,.kart4,.kart7{
+    left: 15%;
+}
+.kart2,.kart5,.kart8{
+    left: 40%;
+}
+.kart3,.kart6,.kart9{
+    left: 65%;
+}
+
+.image{
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid rgb(137, 137, 12);
+    border-radius: 3px;
+}
+
+.kart1,.kart2,.kart3{
+    top: 4rem;
+}
+
+.kart4,.kart5,.kart6{
+    top: 20rem;
+}
+.kart7,.kart8,.kart9{
+    top:36rem ;
+}
+
+
+.button{
+    position: absolute;
+    left: 50%;
+    bottom: 1px;
+    transform: translate(-50%);
+    border-radius: 2px;
+    border: 2px solid black;
+}
+.button:hover{
+    cursor: pointer;
+}
